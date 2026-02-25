@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "JP to English camelCase",
+  "version": "1.0.0",
+  "description": "日本語を入力すると英語のcamelCaseで返すChrome拡張機能です。",
+  "permissions": [],
+  "host_permissions": [
+    "https://translate.googleapis.com/*"
+  ],
+  "action": {
+    "default_title": "JP→camelCase",
+    "default_popup": "popup.html"
+  }
+}
